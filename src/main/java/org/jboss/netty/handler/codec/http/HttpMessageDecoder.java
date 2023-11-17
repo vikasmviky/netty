@@ -753,7 +753,6 @@ public abstract class HttpMessageDecoder extends ReplayingDecoder<State> {
                 break;
             }
         }
-        
         if (nameEnd == length) {
             // There was no colon present at all.
             throw new IllegalArgumentException("No colon found");
